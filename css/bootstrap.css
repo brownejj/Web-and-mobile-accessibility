@@ -401,27 +401,22 @@ h1 {
 
 .h2,
 h2 {
-    font-size: 2rem
+    font-size: 1.5rem
 }
 
 .h3,
 h3 {
-    font-size: 1.75rem
+    font-size: 1.25rem
 }
 
 .h4,
 h4 {
-    font-size: 1.5rem
+    font-size: 1.0rem
 }
 
 .h5,
 h5 {
-    font-size: 1.25rem
-}
-
-.h6,
-h6 {
-    font-size: 1rem
+    font-size: .75rem
 }
 
 .lead {
@@ -2510,7 +2505,7 @@ fieldset:disabled a.btn {
 
 .btn-dark {
     color: #fff;
-    background-color: #343a40;
+    background-color: #23272b;
     border-color: #343a40
 }
 
@@ -3619,6 +3614,7 @@ tbody.collapse.show {
 }
 
 .nav-link {
+    color: white;
     display: block;
     padding: .5rem 1rem
 }
