@@ -15,8 +15,15 @@
 </head>
 
 <body class="d-flex flex-column bg-light">
-    <header>
-        <div class="container-fluid d-none d-lg-block my-4 header">
+
+    <div style="visibility: hidden">
+        <a href="#header" >Skip to header</a>
+        <a href="#main" >Skip to main content</a>
+        <a href="#footer">Skip to footer</a>
+        </div>
+
+    <header id="header" >
+        <div class="container-fluid d-none d-lg-block my-4 header" role="banner">
             <div class="container">
                 <div class="row no-gutters">
                     <div class="col-8 media">
@@ -39,7 +46,7 @@
             </div>
         </div>
         <nav>
-            <div class="navbar">
+            <div class="navbar" role="navigation">
                 <i class='bx bx-menu'></i>
                 <div class="nav-links">
                     <div class="sidebar-logo">
@@ -91,8 +98,8 @@
     </header>
 
 
-    <main>
-        <section aria-labelledby="news" class="col-12 col-lg-8" style="display: inline-block;">
+    <main id="main">
+        <section aria-labelledby="news" class="col-12 col-lg-8" style="display: inline-block;" role="main">
             <h1>News & events</h1>
             <article class="p-4 mt-4 mr-lg-3 bg-white news">
                 <div class="media mt-4">
@@ -141,7 +148,7 @@
                 </div>
             </article>
         </section>
-        <aside class="col-12 col-lg-4" style="display: inline-block;float:right;">
+        <aside class="col-12 col-lg-4" style="display: inline-block;float:right;" role="complementary">
             <h1>Further information</h1>
             <div class="p-4 mt-4 bg-white studies">
                 <h2>Studies</h2>
@@ -173,7 +180,7 @@
         </aside>
     </main>
 
-    <footer>
+    <footer id="footer">
         <div class="container-fluid bg-dark mt-4 footer">
             <div class="container text-center py-3">
                 <div class="row justify-content-around">
