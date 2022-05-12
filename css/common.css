@@ -132,9 +132,9 @@ nav .navbar .links li a {
     font-weight: 500;
 }
 
-nav .navbar .links li a:hover {
+nav .navbar .links li a:hover, div.justify-content-around ul li a:hover {
     text-decoration: underline;
-    color: #343a40;
+    color: #343a40!important;
     background-color: white;
 }
 
