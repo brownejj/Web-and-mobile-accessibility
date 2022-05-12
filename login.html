@@ -12,8 +12,17 @@
 </head>
 
 <body class="bg-light">
-    <header>
-        <div class="container-fluid d-none d-lg-block my-4 header">
+    
+    <div style="visibility: hidden">
+        <a href="#header" >Skip to header</a>
+        <a href="#main" >Skip to main content</a>
+        <a href="#footer">Skip to footer</a>
+        </div>
+
+
+
+    <header id="header">
+        <div class="container-fluid d-none d-lg-block my-4 header" role="banner" >
             <div class="container">
                 <div class="row no-gutters">
                     <div class="col-8 media">
@@ -36,7 +45,7 @@
             </div>
         </div>
         <nav>
-            <div class="navbar">
+            <div class="navbar" role="navigation">
                 <i class='bx bx-menu'></i>
                 <div class="nav-links">
                     <div class="sidebar-logo">
@@ -87,8 +96,8 @@
 
     </header>
 
-    <main>
-        <div class="row no-gutters">
+    <main id="main">
+        <div class="row no-gutters" role="main">
             <div class="col-12 col-md-5 mt-4 login">
                 <div class="p-4 mr-md-3 bg-white">
                     <h1>Login</h1>
@@ -190,8 +199,8 @@
         </div>
     </main>
 
-    <footer>
-        <div class="container-fluid bg-dark mt-4 footer">
+    <footer id="footer">
+        <div class="container-fluid bg-dark mt-4 footer" role="contentinfo">
             <div class="container text-center py-3">
                 <div class="row justify-content-around">
                     <a class="col-12 col-md mr-3 text-white" href="./empty.html?title=About">About</a>
