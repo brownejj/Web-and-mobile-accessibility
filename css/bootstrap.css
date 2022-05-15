@@ -529,7 +529,7 @@ mark {
 
 .figure-caption {
     font-size: 90%;
-    color: #6c757d
+    color: #000000
 }
 
 code,
@@ -2030,7 +2030,7 @@ select.form-control-lg:not([size]):not([multiple]) {
     width: 100%;
     margin-top: .25rem;
     font-size: 80%;
-    color: #dc3545
+    color: #a80010
 }
 
 .invalid-tooltip {
@@ -2239,8 +2239,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #4b6660;
-    border-color: #4b6660
+    background-color: #000000;
+    border-color: #000000
 }
 
 .btn-primary:hover {
@@ -8189,7 +8189,7 @@ a.text-primary:hover {
 }
 
 .text-secondary {
-    color: #6c757d !important
+    color: #2a2f33 !important
 }
 
 a.text-secondary:focus,
@@ -8225,7 +8225,7 @@ a.text-warning:hover {
 }
 
 .text-danger {
-    color: #dc3545 !important
+    color: #a80010 !important
 }
 
 a.text-danger:focus,
@@ -8252,7 +8252,7 @@ a.text-dark:hover {
 }
 
 .text-muted {
-    color: #6c757d !important
+    color: #2a2f33 !important
 }
 
 .text-hide {

@@ -14,7 +14,6 @@
 <body class="d-flex flex-column bg-light">
 
     <div style="visibility: hidden">
-        <a href="#header" >Skip to header</a>
         <a href="#main" >Skip to main content</a>
         <a href="#footer">Skip to footer</a>
         </div>
@@ -33,67 +32,76 @@
                             </div>
                         </div>
                     </div>
+                    
                     <div class="col-4">
                         <div class="btn-toolbar justify-content-end">
                             <div class="btn-group btn-group-sm">
-                                <button class="btn btn-dark font-increase-button"  id="font-increase-button">A+</button>
-                                <button class="btn btn-dark font-decrease-button" id="font-decrease-button">A-</button>
+                                <button class="btn btn-dark font-increase-button"  id="font-increase-button" aria-label="font increase button">A+</button>
+                                <button class="btn btn-dark font-decrease-button" id="font-decrease-button" aria-label="font decrease button">A-</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <nav>
-            <div class="navbar" role="navigation">
-                <i class='bx bx-menu'></i>
-                <div class="nav-links">
-                    <div class="sidebar-logo">
-                    <span class="logo-name">CodingLab</span>
-                    <i class='bx bx-x' ></i>
+        <nav class="container-fluid bg-dark nav" role="navigation" aria-label="Main Navigation">
+            <ul class="container">
+                <div class="navbar navbar-dark bg-dark navbar-expand-lg px-0">
+                    <div class="navbar-brand d-lg-none">
+                        <img class="rounded-right" src="./img/logo.jpg" alt="Logo">
                     </div>
-                    <ul class="links">
-                    <li><a href="./index.html">Homepage</a></li>
-                    <li>
-                        <a href="#">Faculties</a>
-                        <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
-                        <ul class="htmlCss-sub-menu sub-menu">
-                        <li><a href="./empty.html?title=Applied+sciences">Applied sciences</a></li>
-                        <li><a href="./empty.html?title=Architecture+%26+planning">Architecture &amp; planning</a></li>
-                        <li><a href="./empty.html?title=Construction+%26+environment">Construction &amp; environment</a></li>
-                        <li><a href="./empty.html?title=Engineering">Engineering</a></li>
-                        <li><a href="./empty.html?title=Health+%26+social+sciences">Health &amp; social sciences</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">Education &amp; research</a>
-                        <i class='bx bxs-chevron-down js-arrow arrow '></i>
-                        <ul class="js-sub-menu sub-menu">
-                        <li><a href="./empty.html?title=Bachelor">Bachelorr</a></li>
-                        <li><a href="./empty.html?title=Master">Master</a></li>
-                        <li><a href="./empty.html?title=Continuing+education">Continuing education</a></li>
-                        <li><a href="./empty.html?title=Doctorate">Doctorate</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">Industry &amp; partners</a>
-                        <i class='bx bxs-chevron-down js-arrow arrow '></i>
-                        <ul class="js-sub-menu sub-menu">
-                        <li><a href="./empty.html?title=Public+relations">Public &amp; relations</a></li>
-                        <li><a href="./empty.html?title=Commercialization">Commercialization</a></li>
-                        <li><a href="./empty.html?title=Sponsors+%26+partners">Sponsors &amp; partners</a></li>
-                        </ul>
-                    </li>
-                    </ul>
-                </div>
-                <div class="nav-links">
-                    <ul class="links">
-                        <li><a href="./login.html">Login</a></li>
-                    </ul>
+                    <button class="navbar-toggler" type="button">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="nav-bar-content">
+                        <div class="navbar-nav mr-auto">
+                            
+                            <li class="nav-item">
+                                
+                                <a class="nav-link" href="./">Homepage</a>
+                            </li>
+                        
+                            
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false" href="#" id="nav-bar-faculties" >Faculties</a>
+                            <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./empty.html?title=Applied+sciences">Applied sciences</a></li>
+                                    <li><a class="dropdown-item" href="./empty.html?title=Architecture+%26+planning">Architecture &amp; planning</a></li>
+                                    <li><a class="dropdown-item" href="./empty.html?title=Construction+%26+environment">Construction &amp; environment</a></li>
+                                    <li><a class="dropdown-item" href="./empty.html?title=Engineering">Engineering</a></li>
+                                    <li><a class="dropdown-item" href="./empty.html?title=Health+%26+social+sciences">Health &amp; social sciences</a></li>
+                            </ul>
+                        </li>
+    
+    
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false" href="#" id="nav-bar-education" >Education &amp; research</a>
+                            <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./empty.html?title=Bachelor">Bachelor</a></li>
+                                    <li><a class="dropdown-item" href="./empty.html?title=Master">Master</a></li>
+                                    <li><a class="dropdown-item" href="./empty.html?title=Continuing+education">Continuing education</a></li>
+                                    <li><a class="dropdown-item" href="./empty.html?title=Doctorate">Doctorate</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false" href="#" id="nav-bar-industry" >Industry &amp; partners</a>
+                            <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./empty.html?title=Public+relations">Public relations</a></li>
+                                    <li><a class="dropdown-item" href="./empty.html?title=Commercialization">Commercialization</a></li>
+                                    <li><a class="dropdown-item" href="./empty.html?title=Sponsors+%26+partners">Sponsors &amp; partners</a></li>
+                            </ul>
+                        </li>
+                    </div>
+                    <div class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./login.html">Login</a>
+                        </li>
+                    </div>
                 </div>
             </div>
-        </nav>
-
+           
+        </ul>
+    </nav>
     </header>
 
 
