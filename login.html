@@ -135,14 +135,14 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-7 mt-4 register">
+            <div class="col-12 col-md-7 mt-4 register" role="form">
                 <div class="p-4 bg-white">
                     <h1>Create new account</h1>
                     <h2 id="login-error" aria-live="assertive"></h2>
                     <h2 class="text-danger mb-4 d-none" id="register-error">Please correct the error(s)</h2>
                     <ul class="sr-only" id="register-error-list"></ul>
                     <form id="register-form" novalidate>
-                        <fieldset>
+                        <fieldset role="group">
                             <legend>Basic information <small class="text-secondary">(required)</small></legend>
                             <div class="form-row">
                                 <div class="form-group col-12 col-lg-6">
@@ -179,6 +179,7 @@
                                 <small class="invalid-feedback">Please select your education or research programme</small>
                             </div>
                         </fieldset>
+                        <div class="form-group" role="group">
                             <legend>Additional information <small class="text-secondary">(optional)</small></legend>
                             <div class="form-group">
                                 <label for="street">Street</label>
@@ -198,6 +199,7 @@
                                     <input class="form-control" name="zip" id="register-zip-control" type="text" placeholder="Zip">
                                 </div>
                             </div>
+                        </div>
                         <fieldset>
 
 

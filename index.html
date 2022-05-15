@@ -39,8 +39,8 @@
                     <div class="col-4">
                         <div class="btn-toolbar justify-content-end">
                             <div class="btn-group btn-group-sm">
-                                <button class="btn btn-dark font-increase-button"  id="font-increase-button" aria-label="font increase button">A+</button>
-                                <button class="btn btn-dark font-decrease-button" id="font-decrease-button"  aria-label="font decrease button">A-</button>
+                                <button class="btn btn-dark font-increase-button"  id="font-increase-button" aria-label="increase font">A+</button>
+                                <button class="btn btn-dark font-decrease-button" id="font-decrease-button"  aria-label="decrease font">A-</button>
                             </div>
                         </div>
                     </div>
@@ -49,7 +49,7 @@
         </div>
 
 
-         <nav class="container-fluid bg-dark nav" role="navigation" aria-label="Main Navigation">
+         <nav class="container-fluid bg-dark nav" role="navigation" >
         <ul class="container">
             <div class="navbar navbar-dark bg-dark navbar-expand-lg px-0">
                 <div class="navbar-brand d-lg-none">
@@ -112,9 +112,9 @@
 
 
     <main id="main" role="main">
-        <section aria-labelledby="news" class="col-12 col-lg-8" style="display: inline-block;" >
+        <section  class="col-12 col-lg-8" style="display: inline-block;" >
             <h1>News & events</h1>
-            <article class="p-4 mt-4 mr-lg-3 bg-white news">
+            <article class="p-4 mt-4 mr-lg-3 bg-white news" role="article" aria-labelledby="article-one">
                 <div class="media mt-4">
                     <img class="my-1 mr-2 rounded-right" src="./img/iceberg.jpg" alt="Photo of an iceberg">
                     <div class="media-body">
@@ -129,7 +129,7 @@
                     </div>
                 </div>
             </article>
-            <article class="p-4 mt-4 mr-lg-3 bg-white news">
+            <article class="p-4 mt-4 mr-lg-3 bg-white news" role="article" aria-labelledby="article-two">
                 <div class="media mt-4">
                     <img class="my-1 mr-2 rounded-right" src="./img/universe.jpg" alt = "Photo of the universe">
                     <div class="media-body">
@@ -144,7 +144,7 @@
                     </div>
                 </div>
             </article>
-            <article class="p-4 mt-4 mr-lg-3 bg-white news">
+            <article class="p-4 mt-4 mr-lg-3 bg-white news" role="article" aria-labelledby="article-three">
                 <div class="media mt-4">
                     <img class="my-1 mr-2 rounded-right" src="./img/robots.jpg" alt ="Photo of a robot">
                     <div class="media-body">
@@ -173,7 +173,7 @@
                 </ul>
             </div>
 
-            <div class="p-4 mt-4 bg-white researches">
+            <div class="p-4 mt-4 bg-white researches" role="complementary">
                 <h2>Researches</h2>
                 <span class="cta">Join our renowned research groups</span>
                 <ul class="references">
@@ -193,8 +193,8 @@
         </aside>
     </main>
 
-    <footer id="footer">
-        <div class="container-fluid bg-dark mt-4 footer">
+    <footer id="footer" role="contentinfo">
+        <div class="container-fluid bg-dark mt-4 footer" >
             <div class="container text-center py-3">
                 <div class="row justify-content-around">
                     <ul style="list-style: none;">
