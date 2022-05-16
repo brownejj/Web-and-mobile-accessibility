@@ -5,7 +5,7 @@
 function setValid(element) {
     element.classList.remove('is-invalid');
     element.classList.add('is-valid');
-   // element.setAttribute("aria-invalid", "false")
+    element.setAttribute("aria-invalid", "false")
 }
 
 /**
@@ -15,7 +15,7 @@ function setValid(element) {
 function setInvalid(element) {
     element.classList.remove('is-valid');
     element.classList.add('is-invalid');
-   // element.setAttribute("aria-invalid", "true");
+    element.setAttribute("aria-invalid", "true");
 }
 
 /**
