@@ -16,25 +16,31 @@
 
 <body class="d-flex flex-column bg-light">
 
-    <div style="visibility: hidden">
-        <a href="#main" >Skip to main content</a>
-        <a href="#footer">Skip to footer</a>
-        </div>
+    
 
     <header id="header" >
         <div class="container-fluid d-none d-lg-block my-4 header" role="banner">
             <div class="container">
                 <div class="row no-gutters">
                     <div class="col-8 media">
-                        <img class="align-self-center mr-3 rounded-right logo" src="./img/logo.jpg" alt="Logo">
+                        <img class="align-self-center mr-3 rounded-right logo" src="./img/logo.jpg" alt="Logo of Website Lorem Ipsum">
                         <div class="media-body align-self-center">
                             <div class="mb-0 title">Lorem Ipsum
                                 <br>Institute of Technology
                             </div>
                         </div>
                     </div>
-
                     
+
+
+
+
+                    <!-- visbility: hidden does no work as expected -->
+                    <div class="sr-only">
+                    
+                        <a href="#main" >Skip to main content</a>
+                        <a href="#footer">Skip to footer</a>
+                        </div>
 
                     <div class="col-4">
                         <div class="btn-toolbar justify-content-end">
@@ -53,11 +59,11 @@
         <ul class="container">
             <div class="navbar navbar-dark bg-dark navbar-expand-lg px-0">
                 <div class="navbar-brand d-lg-none">
-                    <img class="rounded-right" src="./img/logo.jpg" alt="Logo">
+                    <img class="rounded-right" src="./img/logo.jpg" alt="Logo of Website Lorem Ipsum">
                 </div>
-                <button class="navbar-toggler" type="button">
+             <!--   <button class="navbar-toggler" type="button">
                     <span class="navbar-toggler-icon"></span>
-                </button>
+                </button> -->
                 <div class="collapse navbar-collapse" id="nav-bar-content">
                     <div class="navbar-nav mr-auto">
                         
@@ -118,7 +124,7 @@
                 <div class="media mt-4">
                     <img class="my-1 mr-2 rounded-right" src="./img/iceberg.jpg" alt="Photo of an iceberg">
                     <div class="media-body">
-                        <h2><a href="./article.html">Global temperature record</a></h2>
+                        <h2><a href="./article.html" id="article-one">Global temperature record</a></h2>
                         <p>
                             The global surface temperature relative to 1951-1980 average recently published by NASA shows that 2016 ranks as the warmest
                             year on record..
@@ -133,7 +139,7 @@
                 <div class="media mt-4">
                     <img class="my-1 mr-2 rounded-right" src="./img/universe.jpg" alt = "Photo of the universe">
                     <div class="media-body">
-                        <h2><a href="./empty.html?title=Article">At iam decimum annum in spelunca iacet</a></h2>
+                        <h2><a href="./empty.html?title=Article" id="article-two">At iam decimum annum in spelunca iacet</a></h2>
                         <p>
                             Immo vero, inquit, ad beatissime vivendum parum est, ad beate vero satis. Claudii libidini, qui tum erat summo ne imperio,
                             dederetur. Ergo id est convenienter naturae vivere, a natura discedere.
@@ -148,7 +154,7 @@
                 <div class="media mt-4">
                     <img class="my-1 mr-2 rounded-right" src="./img/robots.jpg" alt ="Photo of a robot">
                     <div class="media-body">
-                        <h2><a href="./empty.html?title=Article">Quo plebiscito decreta a senatu est consuli quaestio Cn</a></h2>
+                        <h2><a href="./empty.html?title=Article" id="article-three">Quo plebiscito decreta a senatu est consuli quaestio Cn</a></h2>
                         <p>
                             Comprehensum, quod cognitum non habet? Quia nec honesto quic quam honestius nec turpi turpius. Maximeque eos videre possumus
                             res gestas audire et legere velle, qui a spe gerendi absunt confecti senectute. Est enim

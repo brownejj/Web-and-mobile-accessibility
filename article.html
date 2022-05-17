@@ -13,10 +13,7 @@
 
 <body class="d-flex flex-column bg-light">
 
-    <div style="visibility: hidden">
-        <a href="#main" >Skip to main content</a>
-        <a href="#footer">Skip to footer</a>
-        </div>
+   
 
     <header id="header">
         <div class="container-fluid d-none d-lg-block my-4 header" role="banner">
@@ -30,7 +27,12 @@
                             </div>
                         </div>
                     </div>
+                    <!-- visbility: hidden does no work as expected -->
+                    <div class="sr-only">
                     
+                        <a href="#main" >Skip to main content</a>
+                        <a href="#footer">Skip to footer</a>
+                        </div>
                     <div class="col-4">
                         <div class="btn-toolbar justify-content-end">
                             <div class="btn-group btn-group-sm">
